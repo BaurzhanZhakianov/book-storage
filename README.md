@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Веб приложение для поиска книг
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+## Использовались следующие библиотеки:
+`react-router-dom` `redux` `react-redux` `redux-thunk` `axios`,
+а также [Google Books API](https://developers.google.com/books/docs/v1/using).
 
-## Available Scripts
+---
+## Реализовано:
+* Поиск, фильтрация, сортировка книг
+* Динамическая пагинация
+* Обработка загрузки и ошибок
+* Работа с API
+* Динамический роутинг по карточкам
+* Адаптив
+* Оптимизация компонентов
 
-In the project directory, you can run:
+---
+## Затронутые темы:
+* Глобальное хранилище
+* Роутинг
+* Условный рендеринг
+* Референсы
+* Хуки
+* Компоненты высшего порядка
+* Средства отладки кода redux-dev-tools
+* Bootstrap 5
+* Регулярные выражения
 
-### `yarn start`
+---
+## Применил полученые знания о `React` `Redux` `Typescript` из следующих источников:
+### Текстовый материал
+* [ReactJS](https://ru.reactjs.org/)
+* [Redux](https://github.com/rajdee/redux-in-russian)
+* [Typescipt](https://www.typescriptlang.org/docs/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Видеоматериал
+* [Юрий Бура, React + Redux. Практическая разработка коммерческих React приложений](https://www.udemy.com/course/pro-react-redux/)
+* [Владилен Минин, React JS. Практический курс 2020 (вкл. Хуки, Классы, Redux)](https://www.udemy.com/course/react-2020-complete-guide/)
+* [ReactJS - Путь самурая (Redux Thunk Saga)](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
