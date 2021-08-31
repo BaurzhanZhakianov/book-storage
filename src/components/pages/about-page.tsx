@@ -46,7 +46,15 @@ const AboutPage = () => {
                 className="text-info"
                 href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8"
               >
-                ReactJS - Путь самурая (Redux Thunk Saga)
+                ReactJS - Путь самурая
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-info"
+                href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN"
+              >
+                ReactJS - Путь самурая 2.0
               </a>
             </li>
           </ul>
@@ -59,7 +67,6 @@ const AboutPage = () => {
             <li>Обработка загрузки и ошибок</li>
             <li>Работа с API</li>
             <li>Динамический роутинг по карточкам</li>
-            <li>Адаптив</li>
             <li>Оптимизация компонентов</li>
           </ul>
         </div>
@@ -72,9 +79,9 @@ const AboutPage = () => {
             <li>Референсы</li>
             <li>Хуки</li>
             <li>Компоненты высшего порядка</li>
+            <li>Bootstrap</li>
             <li>Средства отладки кода redux-dev-tools</li>
-            <li>Bootstrap 5</li>
-            <li>Регулярные выражения</li>
+            <li>eslint и prettier</li>
           </ul>
         </div>
       </div>
