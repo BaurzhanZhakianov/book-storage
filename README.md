@@ -1,5 +1,6 @@
 # Веб приложение для поиска книг
 
+Посмотреть приложение можно по следующей [ссылке](https://baurzhanzhakianov.github.io/book-storage/)
 ---
 ## Использовались следующие библиотеки:
 `react-router-dom` `redux` `react-redux` `redux-thunk` `axios`,
