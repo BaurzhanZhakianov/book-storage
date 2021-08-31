@@ -1,17 +1,8 @@
-import BookDetail from "../ui/book-detail";
-import {useParams} from "react-router-dom";
+import BookDetail from '../ui/book-detail';
+import { FC } from 'react';
 
-type BookParams ={
-    id : string
-}
-
-const BookPage =()=>{
-    const {id} = useParams<BookParams>();
-    return <BookDetail id={id}/>
-}
+const BookPage: FC = () => {
+  return <BookDetail />;
+};
 
 export default BookPage;
-
-
-
-

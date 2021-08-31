@@ -1,2 +1,2 @@
-import declOfNum from "./declination-of-numbers";
-export {declOfNum}
+import declOfNum from './declination-of-numbers';
+export { declOfNum };

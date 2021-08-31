@@ -1,9 +1,5 @@
-import HomePage from "./home-page";
-import BookPage from "./book-page";
-import AboutPage from "./about-page";
+import HomePage from './home-page';
+import BookPage from './book-page';
+import AboutPage from './about-page';
 
-export {
-    HomePage,
-    BookPage,
-    AboutPage
-};
+export { HomePage, BookPage, AboutPage };

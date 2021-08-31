@@ -1,2 +1,2 @@
-import BookStorage from "./book-storage";
+import BookStorage from './book-storage';
 export default BookStorage;

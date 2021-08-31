@@ -1,2 +1,2 @@
-import DataLoaderContainer from "./data-loader-container";
-export default DataLoaderContainer
+import DataLoaderContainer from './data-loader-container';
+export default DataLoaderContainer;

@@ -1,19 +1,12 @@
-import {FC} from "react";
+import { FC } from 'react';
 
-interface IndicatorProps {
-    loading: boolean,
-    error: string,
+type IndicatorProps = {
+  loading: boolean;
+  error: string;
+};
+
+export default function withIndicator<P>(Loader: FC, Error: FC) {
+  return (Wrapped: FC<P>) => (props: IndicatorProps & P) => {
+    return props.error ? <Error /> : props.loading ? <Loader /> : <Wrapped {...(props as P)} />;
+  };
 }
-
-//TODO FC is correct? change props
-const withIndicator = (Loader: FC, Error: FC) => (Wrapped: FC<any>) => {
-    return (props: any) => {
-        return (
-            props.error ? <Error/>
-                : props.loading ? <Loader/>
-                : <Wrapped {...props}/>
-        )
-    }
-}
-
-export default withIndicator;
