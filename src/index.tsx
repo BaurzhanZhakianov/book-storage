@@ -7,6 +7,7 @@ import App from './components/ui/app';
 import BookStorage from './services/book-storage';
 import BookStorageContext from './context/book-storage';
 import { BrowserRouter as Router } from 'react-router-dom';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import 'bootswatch/dist/sketchy/bootstrap.min.css';
 
 const bookStorage = new BookStorage();
